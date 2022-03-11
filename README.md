@@ -6,7 +6,7 @@ Check out https://codebushi.com/gatsby-starters-and-themes/ for more Gatsby star
 
 ## Preview
 
-https://gatsby-lander.surge.sh/
+https://erewl.github.io/ddbie-andrea/
 
 ## Installation
 
@@ -22,6 +22,21 @@ Start local development server with:
 yarn start
 ```
 Server is available at `localhost:8000`
+
+## Deploy local version to github-pages
+
+To ensure no changes are lost, first commit your changes to the main-branch
+```
+git add .
+git commit -m "Some meaningful comment about your changes"
+git push 
+```
+
+And then you can run
+```
+yarn ghdeploy
+```
+This builds the website locally and pushes it to the `gh-pages` branch in this repository. Within a few minute a new release is being deployed and can be found at: https://erewl.github.io/ddbie-andrea/
 
 ## Notes
 
