@@ -10,16 +10,20 @@ https://gatsby-lander.surge.sh/
 
 ## Installation
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-<br/>
-`gatsby new gatsby-starter-lander https://github.com/codebushi/gatsby-starter-lander`
+Prerequisites: `node` and `yarn`
 
-Run `gatsby develop` in the terminal to start the dev site.
+First install dependencies with:
+```
+yarn 
+```
+
+Start local development server with:
+```
+yarn start
+```
 
 ## Notes
 
-These libraries do not yet fully support the upgrade to Gatsby 3.x:
-* gatsby-plugin-react-helmet
-* gatsby-plugin-emotion
-* gatsby-plugin-postcss
-* gatsby-theme-codebushi
+In `src/data/content-data.js` you find a JSON-object with the texts that are rendered in the page.
+
+`index.js` is the main page, which contains most of the content.
