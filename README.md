@@ -21,6 +21,7 @@ Start local development server with:
 ```
 yarn start
 ```
+Server is available at `localhost:8000`
 
 ## Notes
 
