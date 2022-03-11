@@ -6,20 +6,42 @@ Check out https://codebushi.com/gatsby-starters-and-themes/ for more Gatsby star
 
 ## Preview
 
-https://gatsby-lander.surge.sh/
+https://erewl.github.io/ddbie-andrea/
 
 ## Installation
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-<br/>
-`gatsby new gatsby-starter-lander https://github.com/codebushi/gatsby-starter-lander`
+Prerequisites: `node`, `yarn` and an editor such as Visual Studio Code (VS Code)
 
-Run `gatsby develop` in the terminal to start the dev site.
+First install dependencies with:
+```
+yarn 
+```
+
+Start local development server with:
+```
+yarn start
+```
+Server is available at `localhost:8000`
+
+If you make changes in the app (and save your changes in your editor), the app get rerendered and automagically displays your changes! Have fun!
+
+## Deploy local version to github-pages
+
+To ensure no changes are lost, first commit your changes to the main-branch
+```
+git add .
+git commit -m "Some meaningful comment about your changes"
+git push 
+```
+
+And then you can run
+```
+yarn ghdeploy
+```
+This builds the website locally and pushes it to the `gh-pages` branch in this repository. Within a few minutes a new release is being deployed and can be found at: https://erewl.github.io/ddbie-andrea/
 
 ## Notes
 
-These libraries do not yet fully support the upgrade to Gatsby 3.x:
-* gatsby-plugin-react-helmet
-* gatsby-plugin-emotion
-* gatsby-plugin-postcss
-* gatsby-theme-codebushi
+In `src/data/content-data.js` you find a JSON-object with the texts that are rendered in the page.
+
+`src/pages/index.js` is the main page, which contains most of the content.
