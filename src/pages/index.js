@@ -56,20 +56,6 @@ const Index = () => (
     </section>
 
 
-    <section id="video-demo" className="py-20 lg:pb-40 lg:pt-48">
-      <div className="container text-center bg-gray-200 mx-auto pt-5 pb-10 shadow-sm rounded-xl">
-        <h2 className="text-3xl lg:text-5xl font-semibold mb-5">Video Demo</h2>
-        <div className='flex justify-center items-center'>
-          <div className='shadow-xl'>
-            <iframe
-              className='rounded-xl'
-              src="https://player.vimeo.com/video/673322353?h=2460dd59ab"
-              width="800" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <SplitSection
       id="services"
       primarySlot={
@@ -112,7 +98,8 @@ const Index = () => (
       }
       secondarySlot={<img src={'https://i.imgur.com/yf1qPMI.jpeg'} alt="Repair image" />}
     />
-    <section id="stats" className="py-20 lg:pt-32">
+
+    {/* <section id="stats" className="py-20 lg:pt-32">
       <div className="container mx-auto text-center">
         <LabelText className="text-2xl text-gray-600">Our customers get results</LabelText>
         <div className="flex flex-col sm:flex-row mt-8 lg:px-24">
@@ -127,7 +114,7 @@ const Index = () => (
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
 
 
     <section id="pricing" className="py-20 lg:py-40">
@@ -143,6 +130,20 @@ const Index = () => (
       </div>
     </section>
 
+
+    <section id="video-demo" className="py-20 lg:pb-40 lg:pt-48">
+      <div className="container text-center bg-gray-200 mx-auto pt-5 pb-10 shadow-sm rounded-xl">
+        <h2 className="text-3xl lg:text-5xl font-semibold mb-5">Video Demo</h2>
+        <div className='flex justify-center items-center'>
+          <div className='shadow-xl'>
+            <iframe
+              className='rounded-xl'
+              src="https://player.vimeo.com/video/673322353?h=2460dd59ab"
+              width="800" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
     <section id="contact" className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
