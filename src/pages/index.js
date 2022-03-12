@@ -1,21 +1,14 @@
 import React from 'react';
 import Button from '../components/Button';
 import Card from '../components/Card';
-import CustomerCard from '../components/CustomerCard';
 import LabelText from '../components/LabelText';
 import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
 import StatsBox from '../components/StatsBox';
-import customerData from '../data/customer-data';
-import SvgCharts from '../svg/SvgCharts';
 
 import data from "../data/content-data";
 
-import inspection from "../svg/inspection.jpg"
-import repairs from "../svg/repairs.webp" 
 import PricingCard from '../components/PricingCard';
-
-import { StaticImage } from "gatsby-plugin-image"
 
 
 const Index = () => (
@@ -36,7 +29,7 @@ const Index = () => (
           <p className="mt-4 text-gray-600">Sed fermentum felis ut cursu</p>
         </div>
         <div className="lg:w-1/2">
-          <StaticImage src='../svg/inspection.jpg' alt="Inspection Image" />
+          <img src={'https://i.imgur.com/pb0iktE.jpeg'} alt="Inspection Image" />
         </div>
       </div>
     </section>
@@ -68,7 +61,7 @@ const Index = () => (
           </p>
         </div>
       }
-      secondarySlot={<img src={repairs} />}
+      secondarySlot={<img src={'https://i.imgur.com/yf1qPMI.jpeg'} alt="Repair image" />}
     />
     <SplitSection
       reverseOrder
@@ -83,7 +76,7 @@ const Index = () => (
           </p>
         </div>
       }
-      secondarySlot={<img src={inspection} />}
+      secondarySlot={<img src={'https://i.imgur.com/yf1qPMI.jpeg'} alt="Repair image" />}
     />
     <SplitSection
       primarySlot={
@@ -97,7 +90,7 @@ const Index = () => (
           </p>
         </div>
       }
-      secondarySlot={<img src={inspection} />}
+      secondarySlot={<img src={'https://i.imgur.com/yf1qPMI.jpeg'} alt="Repair image" />}
     />
     <section id="stats" className="py-20 lg:pt-32">
       <div className="container mx-auto text-center">
