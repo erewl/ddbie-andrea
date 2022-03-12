@@ -57,5 +57,10 @@ export default {
                 "Energy Efficiency Tracking"
             ]
         }
-    ]
+    ],
+
+    "contact": {
+        "title": "Ready to level up?",
+        "text": "We are eager to hear from you. \nContact us, and we will create a tailored solution for your needs."
+    }
 }

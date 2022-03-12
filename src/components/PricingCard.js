@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from './Card';
+import Button from '../components/Button';
 
 const PricingCard = ({ pricingModel }) => (
   <Card className="mb-8">
@@ -34,6 +35,7 @@ const PricingCard = ({ pricingModel }) => (
         })}
       </ul>
     </div>
+    <Button size="md" className='mt-6'>Choose {pricingModel.title} Plan</Button>
   </Card>
 );
 
