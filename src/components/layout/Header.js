@@ -9,8 +9,7 @@ const Header = () => (
   <header className="sticky top-0 shadow bg-primary-100">
     <div className="container flex flex-col sm:flex-row justify-between items-center mx-auto py-4 px-8">
       <div className="w-24 mt-1">
-        <StaticImage src={'../../../static/andrea_logo_circle.png'} alt="A dinosaur" />
-        {/* <img src={'../../static/andrea_logo_circle.png'} alt="A dinosaur" /> */}
+        <img src='https://i.imgur.com/PG0oRA3.jpeg' alt="Andrea Logo, hand palming a building" />
       </div>
       <div className="flex items-center text-2xl">
         {/* { data.mainTitle } */}
