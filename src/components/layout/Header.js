@@ -1,16 +1,15 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import LogoIcon from '../../svg/LogoIcon';
-import AndreaLogo from '../../svg/andrea_logo_circle.png';
 import Button from '../Button';
 
 import data from "../../data/content-data"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Header = () => (
   <header className="sticky top-0 shadow bg-primary-100">
     <div className="container flex flex-col sm:flex-row justify-between items-center mx-auto py-4 px-8">
-        <div className="w-24 mt-1">
-          <img src={AndreaLogo} alt="A hand palming a building, Andrea stands below that logo."/>
+      <div className="w-24 mt-1">
+        <StaticImage src='../../svg/andrea_logo_circle.png' alt="A dinosaur" />
         </div>
       <div className="flex items-center text-2xl">
         {/* { data.mainTitle } */}

@@ -16,6 +16,8 @@ import repairs from "../svg/repairs.webp"
 import AndreaLogo from '../svg/andrea_logo_circle.png';
 import PricingCard from '../components/PricingCard';
 
+import { StaticImage } from "gatsby-plugin-image"
+
 
 const Index = () => (
   <Layout>
@@ -35,7 +37,7 @@ const Index = () => (
           <p className="mt-4 text-gray-600">Sed fermentum felis ut cursu</p>
         </div>
         <div className="lg:w-1/2">
-          <img src={inspection} alt="Inspection Image" />
+          <StaticImage src='../svg/inspection.jpg' alt="Inspection Image" />
         </div>
       </div>
     </section>
