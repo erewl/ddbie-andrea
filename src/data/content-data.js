@@ -19,28 +19,43 @@ export default {
 
     "pricing": [
         {
-            title: 'Base Model',
+            title: 'Basic',
             content:
-                'Eu lobortis elementum nibh tellus molestie nunc non blandit massa. Sit amet consectetur adipiscing elit duis.',
-            customerName: 'Jane Doe',
-            customerTitle: 'Director of Research and Data',
-            customerImage: 'https://placeimg.com/150/150/people'
+                '100% control and automation. All-in-one online platform for inspection and management.',
+            price: '1.99$',
+            pricingUnit: 'per unit',
+            features: [
+                "Inspection Automation",
+                "Inspection Digitalization"
+            ]
         },
         {
-            title: 'Normal Model',
+            title: 'Essential',
             content:
-                'Eu lobortis elementum nibh tellus molestie nunc non blandit massa. Sit amet consectetur adipiscing elit duis.',
-            customerName: 'John Doe',
-            customerTitle: 'Director of Research and Data',
-            customerImage: 'https://placeimg.com/150/150/people'
+                '100% control and automation. All-in-one online platform for inspection and management.',
+            price: '3.99$',
+            pricingUnit: 'per unit',
+            features: [
+                "ALL FEATURES FROM Basic",
+                "Dashboard",
+                "Statistics and Insights",
+                "AI-powered predictive maintenance",
+                "24/7 technical support"
+            ]
         },
         {
-            title: 'Premium Model',
+            title: 'Premium',
             content:
-                'Eu lobortis elementum nibh tellus molestie nunc non blandit massa. Sit amet consectetur adipiscing elit duis.',
-            customerName: 'Jane Smith',
-            customerTitle: 'Director of Research and Data',
-            customerImage: 'https://placeimg.com/150/150/people'
+                '100% control and automation. All-in-one online platform for inspection and management.',
+            price: '5.99$',
+            pricingUnit: 'per unit',
+            features: [
+                "ALL FEATURES FROM Basic & Essential",
+                "Highly customizable dashboards",
+                "Highly customizable inspection forms",
+                "Integration with repair requests",
+                "Energy Efficiency Tracking"
+            ]
         }
     ]
 }

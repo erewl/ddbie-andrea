@@ -94,7 +94,7 @@ const Index = () => (
     />
     <section id="stats" className="py-20 lg:pt-32">
       <div className="container mx-auto text-center">
-        <LabelText className="text-gray-600">Our customers get results</LabelText>
+        <LabelText className="text-2xl text-gray-600">Our customers get results</LabelText>
         <div className="flex flex-col sm:flex-row mt-8 lg:px-24">
           <div className="w-full sm:w-1/3">
             <StatsBox primaryText="+100%" secondaryText="Stats Information" />
@@ -110,9 +110,9 @@ const Index = () => (
     </section>
 
 
-    <section id="testimonials" className="py-20 lg:py-40">
+    <section id="pricing" className="py-20 lg:py-40">
       <div className="container mx-auto">
-        <LabelText className="mb-8 text-gray-600 text-center">Subscription & Pricing</LabelText>
+        <LabelText className="text-2xl mb-8 text-gray-600 text-center">Subscription & Pricing</LabelText>
         <div className="flex flex-col md:flex-row md:-mx-3">
           {data.pricing.map(pricingModel => (
             <div key={pricingModel.customerName} className="flex-1 px-3">
