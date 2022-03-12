@@ -13,7 +13,6 @@ import data from "../data/content-data";
 
 import inspection from "../svg/inspection.jpg"
 import repairs from "../svg/repairs.webp" 
-import AndreaLogo from '../svg/andrea_logo_circle.png';
 import PricingCard from '../components/PricingCard';
 
 import { StaticImage } from "gatsby-plugin-image"
