@@ -20,7 +20,7 @@ const Header = () => (
         <AnchorLink className="px-4" href="#services">
           Technologies & Articial Intelligence
         </AnchorLink>
-        <AnchorLink className="px-4" href="#stats">
+        <AnchorLink className="px-4" href="#pricing">
           Pricing
         </AnchorLink>
         <AnchorLink className="px-4" href="#pricing">

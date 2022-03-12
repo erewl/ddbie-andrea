@@ -6,6 +6,8 @@ import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
 import StatsBox from '../components/StatsBox';
 
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+
 import data from "../data/content-data";
 
 import PricingCard from '../components/PricingCard';
@@ -21,10 +23,12 @@ const Index = () => (
             {data.mainTitle}
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            { data.subTitle }
+            {data.subTitle}
           </p>
           <p className="mt-8 md:mt-12">
-            <Button size="lg">Get Started</Button>
+            <AnchorLink href="#video-demo" className='text-white'>
+              <Button size="lg">Get Started</Button>
+            </AnchorLink>
           </p>
           <p className="mt-4 text-gray-600">Sed fermentum felis ut cursu</p>
         </div>
@@ -40,9 +44,9 @@ const Index = () => (
           {data.features.map(feature => {
             return <div className="flex-1 px-3">
               <Card className="mb-8">
-                <p className="font-semibold text-xl">{ feature.title}</p>
+                <p className="font-semibold text-xl">{feature.title}</p>
                 <p className="mt-4">
-                  { feature. description }
+                  {feature.description}
                 </p>
               </Card>
             </div>
@@ -50,6 +54,22 @@ const Index = () => (
         </div>
       </div>
     </section>
+
+
+    <section id="video-demo" className="py-20 lg:pb-40 lg:pt-48">
+      <div className="container text-center bg-gray-200 mx-auto pt-5 pb-10 shadow-sm rounded-xl">
+        <h2 className="text-3xl lg:text-5xl font-semibold mb-5">Video Demo</h2>
+        <div className='flex justify-center items-center'>
+          <div className='shadow-xl'>
+            <iframe
+              className='rounded-xl'
+              src="https://player.vimeo.com/video/673322353?h=2460dd59ab"
+              width="800" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <SplitSection
       id="services"
       primarySlot={
