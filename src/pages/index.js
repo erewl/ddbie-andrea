@@ -30,7 +30,7 @@ const Index = () => (
               <Button size="lg">Get Started</Button>
             </AnchorLink>
           </p>
-          <p className="mt-4 text-gray-600">Sed fermentum felis ut cursu</p>
+          <p className="mt-4 text-gray-600">Go paperless today.</p>
         </div>
         <div className="lg:w-1/2">
           <img src={'https://i.imgur.com/pb0iktE.jpeg'} alt="Inspection Image" />
@@ -62,8 +62,8 @@ const Index = () => (
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">Customizable Inspection Forms</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Our team of enthusiastic marketers will analyse and evaluate how your company stacks
-            against the closest competitors
+            A complete and fully customizable solution to transform 
+            your paper forms into dynamic, mobile forms to save time and money.
           </p>
         </div>
       }
@@ -77,8 +77,8 @@ const Index = () => (
             Integration with repair platforms
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Once the market analysis process is completed our staff will search for opportunities
-            that are in reach
+            You can add a work order or maintenance job to the app at any time. 
+            Andrea makes the assignment available for handymen and within an hour you will have an offer
           </p>
         </div>
       }
@@ -88,11 +88,12 @@ const Index = () => (
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">
-            Search For Performance Optimization
+            Check energy efficiency
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            With all the information in place you will be presented with an action plan that your
-            company needs to follow
+            ANDREA will create anonymous baselines for you so a comparison can be made with your portfolio
+            and the industry standard. <br></br>
+            Are you on track to accomplish your energy efficieny goals?
           </p>
         </div>
       }

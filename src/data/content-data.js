@@ -7,8 +7,8 @@ export default {
             "description": "Never were inspections easier! With a customisable form template Andrea will guide you through the inspection, uploading all data to the platform of your choice."
         },
         {
-            "title": "Overview",
-            "description": "With a modern dashboard yada yada yada"
+            "title": "Overview Dashboard",
+            "description": "Identify trends in your data and compare key performance indicators (KPIs) using built-in dashboards. Use filters to interactively isolate and analyze specific subsets of data and segments of your business."
         },
         {
             "title": "Predictive Maintenance",
