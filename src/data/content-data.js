@@ -11,7 +11,7 @@ export default {
             "description": "With a modern dashboard yada yada yada"
         },
         {
-            "title": "Predictive Maintance",
+            "title": "Predictive Maintenance",
             "description": "An AI powered system will predict when maintenance are due and notify the affected parties in no time."
         }
     ],
@@ -32,7 +32,7 @@ export default {
         {
             title: 'Essential',
             content:
-                '100% control and automation. All-in-one online platform for inspection and management.',
+                'Lean back and get notified when inspections are due. Powerful statistics and insights compacted inside a dashboard, available everywhere, anytime.',
             price: '3.99$',
             pricingUnit: 'per unit',
             features: [
@@ -46,7 +46,7 @@ export default {
         {
             title: 'Premium',
             content:
-                '100% control and automation. All-in-one online platform for inspection and management.',
+                'Customized forms and dashboards tailored to your needs. Keep an eye of the energy levels of your property. Automated repair integration with platforms of your choice.',
             price: '5.99$',
             pricingUnit: 'per unit',
             features: [

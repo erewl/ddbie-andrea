@@ -8,6 +8,10 @@ a:hover {
   @apply text-primary-darker;
 }
 
+#logo {
+  text-shadow: 1px 1px 5px #A57789;
+}
+
 @tailwind components;
 
 @tailwind utilities;
