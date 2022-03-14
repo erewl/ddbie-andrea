@@ -62,7 +62,7 @@ const Index = () => (
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">Customizable Inspection Forms</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            A complete and fully customizable solution to transform 
+            A complete and fully customizable solution to transform
             your paper forms into dynamic, mobile forms to save time and money.
           </p>
         </div>
@@ -77,11 +77,12 @@ const Index = () => (
             Integration with repair platforms
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            You can add a work order or maintenance job to the app at any time. 
+            You can add a work order or maintenance job to the app at any time.
             Andrea makes the assignment available for handymen and within an hour you will have an offer
           </p>
         </div>
       }
+
       secondarySlot={<img src={'https://i.imgur.com/yf1qPMI.jpeg'} alt="Repair image" />}
     />
     <SplitSection
@@ -136,12 +137,18 @@ const Index = () => (
       <div className="container text-center bg-gray-200 mx-auto pt-5 pb-10 shadow-sm rounded-xl">
         <h2 className="text-3xl lg:text-5xl font-semibold mb-5">Video Demo</h2>
         <div className='flex justify-center items-center'>
-          <div className='shadow-xl'>
+          <div>
             <iframe
-              className='rounded-xl'
-              src="https://player.vimeo.com/video/673322353?h=2460dd59ab"
-              width="800" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+              src="https://player.vimeo.com/video/687861989?h=48b7bfb86e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+              className='rounded-xl shadow-xl'
+              frameborder="0"
+              width="700" height="400"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowfullscreen
+              title="Andrea.">
+            </iframe>
           </div>
+          <script src="https://player.vimeo.com/api/player.js"></script>
         </div>
       </div>
     </section>
