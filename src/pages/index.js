@@ -26,7 +26,7 @@ const Index = () => (
             {data.subTitle}
           </p>
           <p className="mt-8 md:mt-12">
-            <AnchorLink href="#video-demo" className='text-white'>
+            <AnchorLink href="#contact" className='text-white'>
               <Button size="lg">Get Started</Button>
             </AnchorLink>
           </p>
@@ -37,6 +37,29 @@ const Index = () => (
         </div>
       </div>
     </section>
+
+
+    <section id="video-demo" className="py-20 lg:pb-40 lg:pt-48">
+      <div className="container text-center bg-gray-200 mx-auto pt-5 pb-10 pt-10 shadow-sm rounded-xl">
+        {/* <h2 className="text-3xl lg:text-5xl font-semibold mb-5">Video Demo</h2> */}
+        <div className='flex justify-center items-center'>
+          <div>
+            <iframe
+              src="https://player.vimeo.com/video/687861989?h=48b7bfb86e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+              className='rounded-xl shadow-xl'
+              frameborder="0"
+              width="900" height="500"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowfullscreen
+              title="Andrea.">
+            </iframe>
+          </div>
+          <script src="https://player.vimeo.com/api/player.js"></script>
+        </div>
+      </div>
+    </section>
+
+
     <section id="features" className="py-20 lg:pb-40 lg:pt-48">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl lg:text-5xl font-semibold">We Offer</h2>
@@ -128,27 +151,6 @@ const Index = () => (
               <PricingCard pricingModel={pricingModel} />
             </div>
           ))}
-        </div>
-      </div>
-    </section>
-
-
-    <section id="video-demo" className="py-20 lg:pb-40 lg:pt-48">
-      <div className="container text-center bg-gray-200 mx-auto pt-5 pb-10 shadow-sm rounded-xl">
-        <h2 className="text-3xl lg:text-5xl font-semibold mb-5">Video Demo</h2>
-        <div className='flex justify-center items-center'>
-          <div>
-            <iframe
-              src="https://player.vimeo.com/video/687861989?h=48b7bfb86e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-              className='rounded-xl shadow-xl'
-              frameborder="0"
-              width="700" height="400"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowfullscreen
-              title="Andrea.">
-            </iframe>
-          </div>
-          <script src="https://player.vimeo.com/api/player.js"></script>
         </div>
       </div>
     </section>
