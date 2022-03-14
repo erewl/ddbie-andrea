@@ -22,8 +22,8 @@ export default {
             title: 'Basic',
             content:
                 '100% control and automation. All-in-one online platform for inspection and management.',
-            price: '0.99€',
-            pricingUnit: 'per unit',
+            price: '2.50€',
+            pricingUnit: 'per building',
             features: [
                 "Inspection Automation",
                 "Inspection Digitalization"
@@ -33,8 +33,8 @@ export default {
             title: 'Essential',
             content:
                 'Lean back and get notified when inspections are due. Powerful statistics and insights compacted inside a dashboard, available everywhere, anytime.',
-            price: '1.50€',
-            pricingUnit: 'per unit',
+            price: '3.25€',
+            pricingUnit: 'per building',
             features: [
                 "ALL FEATURES FROM Basic",
                 "Dashboard",
@@ -47,8 +47,8 @@ export default {
             title: 'Premium',
             content:
                 'Customized forms and dashboards tailored to your needs. Keep an eye of the energy levels of your property. Automated repair integration with platforms of your choice.',
-            price: '2.00€',
-            pricingUnit: 'per unit',
+            price: '4.00€',
+            pricingUnit: 'per building',
             features: [
                 "ALL FEATURES FROM Basic & Essential",
                 "Highly customizable dashboards",
