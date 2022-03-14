@@ -90,7 +90,7 @@ const Index = () => (
           </p>
         </div>
       }
-      secondarySlot={<img src={'https://i.imgur.com/yf1qPMI.jpeg'} alt="Repair image" />}
+      secondarySlot={<img className="rounded-xl" src={'https://i.imgur.com/LyOYUAb.jpg'} alt="Repair image" />}
     />
     <SplitSection
       reverseOrder
@@ -121,7 +121,7 @@ const Index = () => (
           </p>
         </div>
       }
-      secondarySlot={<img src={'https://i.imgur.com/yf1qPMI.jpeg'} alt="Repair image" />}
+      secondarySlot={<img src={'https://i.imgur.com/DH32j52.jpg'} alt="Repair image" />}
     />
 
     {/* <section id="stats" className="py-20 lg:pt-32">
